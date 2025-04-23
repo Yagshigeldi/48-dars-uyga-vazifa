@@ -1,0 +1,22 @@
+{
+  "name": "48-dars-uyga-vazifa",
+  "version": "1.0.0",
+  "description": "",
+  "main": "main.js",
+  "scripts": {
+    "start": "node --env-file=.env src/main.js",
+    "start:dev": "node --watch --env-file=.env src/main.js"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "type": "module",
+  "dependencies": {
+    "bcrypt": "^5.1.1",
+    "express": "^5.1.0",
+    "jsonwebtoken": "^9.0.2",
+    "mongoose": "^8.13.2",
+    "morgan": "^1.10.0",
+    "zod": "^3.24.3"
+  }
+}
